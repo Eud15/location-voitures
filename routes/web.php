@@ -37,6 +37,10 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
+Route::get('/base', function () {
+    return view('base');
+});
+
 Route::get('/JessDoxie-location/dashboard', function () {
     return view('dashboard');
 });
