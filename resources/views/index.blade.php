@@ -1,5 +1,5 @@
 
-@extends('base.blade.php')
+@extends('base')
 
 @section('contenu')
     <!-- Modal -->
