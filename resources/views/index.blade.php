@@ -111,17 +111,17 @@
             <div class="col-12 col-md-4 p-5 mt-3">
                 <a href="#"><img src="./assets/img/category_img_01.jpg" style="width: 223,98px; height: 223,98px;" class="rounded-circle img-fluid border"></a>
                 <h5 class="text-center mt-3 mb-3">Audits</h5>
-                <p class="text-center"><a class="btn btn-info">Boutique</a></p>
+                <p class="text-center"><a class="btn btn-info"  href="/shop-single">Boutique</a></p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
                 <a href="#"><img src="./assets/img/category_img_02.jpg" style="width: 223,98px; height: 223,98px;" class="rounded-circle img-fluid border"></a>
                 <h2 class="h5 text-center mt-3 mb-3">Bently</h2>
-                <p class="text-center"><a class="btn btn-info">Boutique</a></p>
+                <p class="text-center"><a class="btn btn-info"  href="/shop-single">Boutique</a></p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
                 <a href="#"><img src="./assets/img/category_img_01.jpg" style="width: 223,98px; height: 223,98px;" class="rounded-circle img-fluid border"></a>
                 <h2 class="h5 text-center mt-3 mb-3">Lexus</h2>
-                <p class="text-center"><a class="btn btn-info">Boutique</a></p>
+                <p class="text-center"><a href="/shop-single" class="btn btn-info">Boutique</a></p>
             </div>
         </div>
     </section>
@@ -142,7 +142,7 @@
             <div class="row">
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-                        <a href="shop-single.html">
+                        <a  href="/shop-single">
                             <img src="./assets/img/feature_prod_01.jpg" class="card-img-top" alt="...">
                         </a>
                         <div class="card-body">
@@ -166,7 +166,7 @@
                 </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-                        <a href="shop-single.html">
+                        <a  href="/shop-single">
                             <img src="./assets/img/feature_prod_02.jpg" class="card-img-top" alt="...">
                         </a>
                         <div class="card-body">
@@ -190,7 +190,7 @@
                 </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
-                        <a href="shop-single.html">
+                        <a  href="/shop-single">
                             <img src="./assets/img/feature_prod_01.jpg" class="card-img-top" alt="...">
                         </a>
                         <div class="card-body">
@@ -204,7 +204,7 @@
                                 </li>
                                 <li class="text-muted text-right">30.000FCFA/jours</li>
                             </ul>
-                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">Lexus</a>
+                            <a  href="/shop-single" class="h2 text-decoration-none text-dark">Lexus</a>
                             <p class="card-text">
                                 Un puissant moteur, 4cyllindres avec des roues en feu. Une vitesse incroyable.
                             </p>

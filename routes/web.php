@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\CarController;
+use App\Http\Livewire\HomeComponent;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,20 +15,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/welcome', function () {
-    return view('welcome');
-});
-
-Route::get('/about', function () {
-    return view('about');
-});
-
 Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/shop-single', function () {
-    return view('shop-single');
+Route::get('/about', function () {
+    return view('about');
 });
 
 Route::get('/shop', function () {
@@ -36,13 +30,16 @@ Route::get('/shop', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
-
-Route::get('/base', function () {
-    return view('base');
+Route::get('/AddCar', function () {
+    return view('add');
 });
+Route::post('/addCar', [CarController::class , 'addCar']);
+Route::post('/shop-single/{id}', [CarController::class , 'getCarInfo']);
 
-Route::get('/JessDoxie-location/dashboard', function () {
+
+Route::get('/dashboard', function () {
     return view('dashboard');
-});
+})->middleware(['auth'])->name('dashboard');
 
+require __DIR__.'/auth.php';
 
